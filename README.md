@@ -19,8 +19,6 @@ Backend API for managing employees, built with Spring Boot.
 - Maven
 - Lombok
 
-![img](https://github.com/user-attachments/assets/e22b402d-92bf-4f36-b68f-5d98e7d23c78)
-
 ## Sample Endpoints
 
 | Method | URL                   | Action                              |
@@ -31,3 +29,16 @@ Backend API for managing employees, built with Spring Boot.
 | PUT    | `/api/employees/{id}` | Update employee by ID (via DTO)      |
 | DELETE | `/api/employees/{id}` | Delete employee by ID                |
 | DELETE | `/api/employees`      | Delete all employees                 |
+
+## Project Flow
+
+- Postman sends POST /api/employees with JSON body.
+- Controller gets EmployeeDTO.
+- Service converts DTO → Entity, saves it via Repository.
+- DB stores the employee.
+- Service converts saved Entity → DTO.
+- Controller returns DTO response.
+
+![img](https://github.com/user-attachments/assets/e22b402d-92bf-4f36-b68f-5d98e7d23c78)
+
+

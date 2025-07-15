@@ -51,4 +51,11 @@ public class EmployeeController {
         employeeService.deleteEmployee(employeeId);
         return ResponseEntity.ok("Employee has been deleted");
     }
+
+    // Build Delete All Employees REST API
+    @DeleteMapping
+    public ResponseEntity<String> deleteAllEmployees() {
+        employeeService.deleteAllEmployees();
+        return ResponseEntity.ok("All Employees have been deleted");
+    }
 }

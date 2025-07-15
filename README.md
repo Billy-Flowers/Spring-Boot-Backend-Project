@@ -19,6 +19,8 @@ Backend API for managing employees, built with Spring Boot.
 - Maven
 - Lombok
 
+<img width="1593" height="857" alt="Image" src="https://github.com/user-attachments/assets/370440a5-3dda-4528-89ed-f098459b8c6c" />
+
 ## Sample Endpoints
 
 | Method | URL                   | Action                              |

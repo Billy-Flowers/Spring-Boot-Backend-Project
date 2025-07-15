@@ -1,6 +1,6 @@
 # EMS Backend – Spring Boot
 
-Backend API for managing employees, built with Spring Boot.
+A Spring Boot-based Employee Management System (EMS) that performs CRUD operations using layered architecture with REST APIs, DTOs, and service/repository patterns. Tested using Postman.
 
 ## 🚀 Features
 

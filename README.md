@@ -19,17 +19,6 @@ A Spring Boot-based Employee Management System (EMS) that performs CRUD operatio
 - Maven
 - Lombok
 
-## Sample Endpoints
-
-| Method | URL                   | Action                              |
-|--------|-----------------------|--------------------------------------|
-| GET    | `/api/employees`      | List all employees                   |
-| GET    | `/api/employees/{id}` | Get employee by ID                   |
-| POST   | `/api/employees`      | Create new employee (via DTO)        |
-| PUT    | `/api/employees/{id}` | Update employee by ID (via DTO)      |
-| DELETE | `/api/employees/{id}` | Delete employee by ID                |
-| DELETE | `/api/employees`      | Delete all employees                 |
-
 ## Project Flow
 
 - Postman sends POST /api/employees with JSON body.
@@ -41,4 +30,13 @@ A Spring Boot-based Employee Management System (EMS) that performs CRUD operatio
 
 ![img](https://github.com/user-attachments/assets/e22b402d-92bf-4f36-b68f-5d98e7d23c78)
 
+## Sample Endpoints
 
+| Method | URL                   | Action                              |
+|--------|-----------------------|--------------------------------------|
+| GET    | `/api/employees`      | List all employees                   |
+| GET    | `/api/employees/{id}` | Get employee by ID                   |
+| POST   | `/api/employees`      | Create new employee (via DTO)        |
+| PUT    | `/api/employees/{id}` | Update employee by ID (via DTO)      |
+| DELETE | `/api/employees/{id}` | Delete employee by ID                |
+| DELETE | `/api/employees`      | Delete all employees                 |

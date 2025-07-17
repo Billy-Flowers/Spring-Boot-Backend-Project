@@ -14,6 +14,7 @@ A Spring Boot-based Employee Management System (EMS) that performs CRUD operatio
 
 - Java 17+
 - Spring Boot 3.x
+- PostgreSQL
 - Spring Data JPA
 - H2 database (configurable)
 - Maven
